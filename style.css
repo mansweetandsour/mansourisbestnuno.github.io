@@ -1,0 +1,50 @@
+body {
+background-image:url("http://www.socwall.com/images/wallpapers/24715-1920x1080.jpg");
+background-repeat :no-repeat;
+text-align: center;
+background-size: 100% 100%;
+}
+
+#main{
+width: 80%;
+height: 90%;
+opacity: 0.4;
+background-color: black;
+margin: 2% auto;
+}
+
+#nav_bar{
+  width:78%;
+  height:2%;
+  background-color: gray;
+  margin: 1% auto;
+  font-family:"Tahoma", Geneva, sans-serif;
+  border: 1px solid #000000;
+  font-size:95%;
+  font-weight:bold;
+  text-transform: uppercase;
+  padding: .5% 1% .5% 1%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#nav_bar a {
+color:black;
+text-decoration:none;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+#nav_bar a:hover {
+  color: red;
+  text-decoration:underline;
+}
+
+h1 {
+  text-align: center;
+  font-family:"Impact", Charcoal, sans-serif;
+  font: 24pt;
+  Color: maroon;
+}
