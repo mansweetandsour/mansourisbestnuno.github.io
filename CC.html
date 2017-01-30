@@ -1,24 +1,74 @@
 <html>
-  
-<head>
-<title>Crisis Staff Nexus</title>
-<link href="CC.css" type="text/css" rel="stylesheet">
-</head>
-
-<body>
-<h1> Committee C </h1>
-
-<div id="nav_bar">
-  <a href="index.html">Home</a>
-  <a href="CA.html">Committee A</a>
-  <a href="CB.html">Committee B</a>
-  <a href="CC.html">Committee C</a>
-  
-  </div>
-    
-<div id="main">
-  
-</div>
-</body>
-
+  <head>
+    <title>Crisis Staff Nexus</title>
+    <link href="CC.css" type="text/css" rel="stylesheet">
+    <style>
+      #statusbutton{
+        
+        height:10%;
+        width:10%;
+        border: 2px solid black;
+        font-family:"Impact", Charcoal, sans-serif;
+        font-weight:bold;
+        font-size:150%;
+        
+      }
+      #statusbutton:active{
+         font-size:170%;
+         color:green;
+      }
+      #textbox{
+        
+        height:10%;
+        width:10%;
+        border: 2px solid black;
+        font-family:"Impact", Charcoal, sans-serif;
+        font-weight:bold;
+        font-size:150%;
+        text-align:center;
+        
+      }
+    </style>
+    <script>
+      function randval(){
+        var x=Math.random()
+        if(x>.5){
+          document.getElementById('textbox').value='Pass'
+        }else{
+          document.getElementById('textbox').value='Fail'
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Committee C</h1>
+    <div id="nav_bar">
+      <a href="index.html">Home</a>
+      <a href="CA.html">Committee A</a>
+      <a href="CB.html">Committee B</a>
+      <a href="CC.html">Committee C</a>
+    </div>
+    <div id="main">
+      <div id="map">
+        <iframe style="min-height: 95%;" src="https://docs.google.com/spreadsheets/d/1pvtwrEJR5UbV-VQToR4HhzIhiKKBuyq1n-MKmya3AXs/edit?usp=sharing"
+          width="98%"
+          height="98%">
+        </iframe>
+      </div>
+      <div id="directives">
+        <iframe style="min-height: 100%;" src="https://docs.google.com/spreadsheets/d/1HjJgrbWJxnLf9Ejcj8HvScoCy70b5G2jfjjgKA6UKIs/edit?usp=sharing"
+          width="100%"
+          height="100%">
+        </iframe>
+        <input type=button value='Status' id='statusbutton' onclick='randval()'>
+        <input type=text value='' id='textbox'>
+      </div>
+      <div id="finances">
+        <iframe style="min-height: 100%;" src="https://docs.google.com/spreadsheets/d/15vpedH5BFDUUM50BSCY5FGIVXTG-5jtppbsJL4aHmxQ/edit?usp=sharing"
+          width="100%"
+          height="100%">
+        </iframe>
+      </div>
+    </div>
+  </body>
 </html>
