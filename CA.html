@@ -5,8 +5,27 @@
     <style>
       #statusbutton{
         
+        height:10%;
+        width:10%;
+        border: 2px solid black;
+        font-family:"Impact", Charcoal, sans-serif;
+        font-weight:bold;
+        font-size:150%;
+        
+      }
+      #statusbutton:onclick{
+         font-size:170%;
+         color:green;
       }
       #textbox{
+        
+        height:10%;
+        width:10%;
+        border: 2px solid black;
+        font-family:"Impact", Charcoal, sans-serif;
+        font-weight:bold;
+        font-size:150%;
+        text-align:center;
         
       }
     </style>
@@ -44,6 +63,13 @@
         <input type=button value='Status' id='statusbutton' onclick='randval()'>
         <input type=text value='' id='textbox'>
       </div>
+      <div id="finances">
+        <iframe style="min-height: 100%;" src="https://docs.google.com/spreadsheets/d/1SqDDD9nNwWwQwvxgzbCyNRjfzYJxYNsJSaFB1YtYghw/edit?usp=sharing"
+          width="100%"
+          height="100%">
+        </iframe>
+      </div>
     </div>
   </body>
 </html>
+

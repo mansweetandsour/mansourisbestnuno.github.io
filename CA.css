@@ -1,5 +1,5 @@
 body {
-background-image:url("http://www.socwall.com/images/wallpapers/24715-1920x1080.jpg");
+background-image:url("http://free4kwallpaper.com/wp-content/uploads/2016/02/Best-4K-New-York-City-Wallpaper.jpg");
 background-size: 100% 100%;
 background-repeat :no-repeat;
 text-align: center;
@@ -45,7 +45,7 @@ margin-right: 10px;
 #directives {
   
   width:70%;
-  height:30%;
+  height:25%;
   background-color:gray;
   opacity:1.0;
   margin:1% auto;
@@ -54,9 +54,21 @@ margin-right: 10px;
   
 }
 
+#finances {
+   
+  width:70%;
+  height:25%;
+  background-color:gray;
+  opacity:1.0;
+  margin:5% auto;
+  border: 2px solid #000000;
+  float:left;
+    
+}
+
 #map {
   width:90%;
-  Height:50%;
+  Height:40%;
   background-color:gray;
   opacity:1.0;
   margin: 3% auto;
@@ -67,6 +79,5 @@ h1 {
   text-align: center;
   font-family:"Impact", Charcoal, sans-serif;
   font: 24pt;
-  Color: white;
+  Color: maroon;
 }
- 
