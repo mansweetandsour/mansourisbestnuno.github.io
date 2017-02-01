@@ -1,5 +1,5 @@
 body {
-background-image:url("http://www.socwall.com/images/wallpapers/24715-1920x1080.jpg");
+background-image:url("back.jpg");
 background-repeat :no-repeat;
 text-align: center;
 background-size: 100% 100%;
@@ -8,8 +8,8 @@ background-size: 100% 100%;
 #main{
 width: 80%;
 height: 90%;
-opacity: .4;
-background-color: black;
+background-color:#000000;
+background-color: rgba(0,0,0,0.4);
 margin: 2% auto;
 }
 
@@ -47,4 +47,10 @@ h1 {
   font-family:"Impact", Charcoal, sans-serif;
   font: 24pt;
   Color: maroon;
+}
+
+h2 {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font: 24pt;
+  Color: white;
 }

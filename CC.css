@@ -1,5 +1,5 @@
 body {
-background-image:url("http://free4kwallpaper.com/wp-content/uploads/2016/02/Best-4K-New-York-City-Wallpaper.jpg");
+background-image:url("back.jpg");
 background-size: 100% 100%;
 background-repeat :no-repeat;
 text-align: center;
@@ -7,7 +7,7 @@ text-align: center;
 
 #main{
 width: 95%;
-height: 200%;
+height: 220%;
 background-color:#000000;
 background-color: rgba(0,0,0,0.4);
 margin: 2% auto;
@@ -24,8 +24,6 @@ margin: 2% auto;
   font-weight:bold;
   text-transform: uppercase;
   padding: .5% 1% .5% 1%;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
 }
 
@@ -54,10 +52,52 @@ margin-right: 10px;
   
 }
 
+#textboxI {
+  height:auto;
+  width:25%;
+  float:right;
+  border: 3px solid orange;
+  margin: 3% auto;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  line-height:1.5em;
+  border-radius:7px;
+}
+
+#step1{
+  border: 2px solid maroon;
+  margin: .5% auto;
+  color:white;
+  font-style:bold;
+  background-color:gray;
+  text-align:left;
+  font-size: 1.1em;
+  padding: .5% 1% .5% 1%;
+}
+#step2{
+  border: 2px solid maroon;
+  margin: .5% auto;
+  color:white;
+  font-style:bold;
+  background-color:gray;
+  text-align:left;
+  font-size: 1.1em;
+  padding: .5% 1% .5% 1%;
+}
+#step3{
+  border: 2px solid maroon;
+  margin: .5% auto;
+  color:white;
+  font-style:bold;
+  background-color:gray;
+  text-align:left;
+  font-size: 1.1em;
+  padding: .5% 1% .5% 1%;
+}
+
 #finances {
    
   width:70%;
-  height:25%;
+  height:20%;
   background-color:gray;
   opacity:1.0;
   margin:5% auto;
